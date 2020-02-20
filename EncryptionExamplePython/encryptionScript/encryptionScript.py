@@ -14,6 +14,10 @@ from os import listdir
 from os.path import isfile, join
 import time
 
+print("Current Working Directory " , os.getcwd())
+os.chdir("c:/encrypted")
+print("Current Working Directory " , os.getcwd())
+
 class Encryptor:
     def __init__(self, key):
         self.key = key
