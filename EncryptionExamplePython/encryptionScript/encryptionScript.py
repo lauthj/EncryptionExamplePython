@@ -14,8 +14,9 @@ from os import listdir
 from os.path import isfile, join
 import time
 
+### Be very careful in selecting directory - one could encrypt mistakenly all files in C://
 print("Current Working Directory " , os.getcwd())
-os.chdir("c:/encrypted")
+#os.chdir("c:/encrypted")
 print("Current Working Directory " , os.getcwd())
 
 class Encryptor:
@@ -97,10 +98,10 @@ if os.path.isfile('data.txt.enc'):
             enc.encrypt_file(str(input("Enter name of file to encrypt: ")))
         elif choice == 2:
             enc.decrypt_file(str(input("Enter name of file to decrypt: ")))
-        elif choice == 3:
-            enc.encrypt_all_files()
-        elif choice == 4:
-            enc.decrypt_all_files()
+ #       elif choice == 3:
+ #           enc.encrypt_all_files()
+ #       elif choice == 4:
+ #           enc.decrypt_all_files()
         elif choice == 5:
             exit()
         else:
