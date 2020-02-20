@@ -14,7 +14,7 @@ from os import listdir
 from os.path import isfile, join
 import time
 
-### Be very careful in selecting directory - one could encrypt mistakenly all files in C://
+### Be very careful in selecting directory - one could encrypt mistakenly all files in C:/ ###
 print("Current Working Directory " , os.getcwd())
 #os.chdir("c:/encrypted")
 print("Current Working Directory " , os.getcwd())
