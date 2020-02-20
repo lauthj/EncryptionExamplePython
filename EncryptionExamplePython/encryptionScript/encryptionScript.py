@@ -1,7 +1,7 @@
 '''
-Created on Feb 20, 2020
+Created on Feb 17, 2020
 
-@author: joseph.lauth
+@author: joseph.lauth is super cool
 '''
 
 #!/usr/bin/python3
@@ -118,7 +118,3 @@ else:
     enc.encrypt_file("data.txt")
     print("Please restart the program to complete the setup")
     time.sleep(15)
-    
-
-
-
