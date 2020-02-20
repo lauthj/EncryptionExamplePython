@@ -98,6 +98,7 @@ if os.path.isfile('data.txt.enc'):
             enc.encrypt_file(str(input("Enter name of file to encrypt: ")))
         elif choice == 2:
             enc.decrypt_file(str(input("Enter name of file to decrypt: ")))
+        ## Commented out the below to prevent mistakenly encrypting all files in C:/ directory
  #       elif choice == 3:
  #           enc.encrypt_all_files()
  #       elif choice == 4:
