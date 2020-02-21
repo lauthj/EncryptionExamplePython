@@ -16,7 +16,7 @@ import time
 
 ### Be very careful in selecting directory - one could encrypt mistakenly all files in C:/ ###
 print("Current Working Directory " , os.getcwd())
-#os.chdir("c:/encrypted")
+os.chdir("c:/encrypted/encryption")
 print("Current Working Directory " , os.getcwd())
 
 class Encryptor:
